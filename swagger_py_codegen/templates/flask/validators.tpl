@@ -9,7 +9,8 @@ from functools import wraps
 import six
 
 from werkzeug.datastructures import MultiDict, Headers
-from flask import request, g, current_app, json
+from flask import request, g, current_app
+import json
 from flask_restful import abort
 from flask_restful.utils import unpack
 from jsonschema import Draft4Validator
